@@ -1,0 +1,171 @@
+html{
+	scroll-behavior: smooth;
+}
+/*-------------nav-------------*/
+nav{
+	position: absolute;
+}
+.nav-item{
+	margin-right:10px;
+}
+.nav-link:hover{
+	background-color: #003fff;
+	color:white !important;
+
+}
+/*-------------nav-------------*/
+/*-------------home-------------*/
+.homerow{
+	margin-top: 20px;
+}
+.img-thumbnail{
+	padding: 0px !important;
+}
+.homebg{
+	margin-left: -20px;
+	border: none !important;
+
+}
+.btn-contact{
+	background-color: blue !important;
+}
+.name{
+	padding-top: 25%;
+	font-size: 77px !important;
+	font-weight: 200 !important;
+}
+.course{
+	font-weight: 100 !important;
+	font-size: 37px !important;
+	margin-bottom: 80px !important;
+}
+.btn-contact{
+	padding: 2% 10% 2% 10% !important; 
+	
+}
+.icon{
+	font-size:36px;
+	float:left;
+	margin-left: 3%;
+	margin-top: 40px;
+	margin-bottom: 10%;
+
+}
+.icons{
+	font-size:30px;
+	margin-left: 3%;
+	margin-top: 20px;
+
+}
+
+.fa-facebook:hover {
+	color: #176dcf;
+}
+.fa-instagram:hover {
+	color: #db2c8f;
+}
+.fa-twitter-square:hover {
+	color: #1ea0eb;
+}
+/*about*/
+.about{
+	font-weight: 150 !important;
+	padding-top: 40px;
+	padding-bottom: 30px;
+
+}
+.abc{
+	margin-top: -10px;
+	padding-bottom: 50px;
+}
+.aboutimg{
+	border: none !important;
+	
+}
+.aboutcontent{
+	text-align: justify;
+    text-justify: inter-word;
+    margin-top: 30px;
+  
+}
+/*about*/
+/*skills*/
+.progress{
+	margin-top: 2%;
+	margin-bottom: 2%;
+
+}
+.progress-bar{
+	background-color: blue !important;
+}
+/*skills*/
+/*portfolio*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 33.3%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  filter: grayscale(1) brightness(0.5);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.column img:hover {
+  filter: grayscale(0);
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .column img {
+    filter: grayscale(0) brightness(1);
+  }
+}
+.port{
+	margin-top: -10px;
+}
+
+/*portfolio*/
+/*contact*/
+.btn-send{
+	background-color: blue !important;
+	padding: 1% 5% 1% 5% !important; 
+	margin-bottom: 10%;
+}
+	.btn-clear{
+	background-color: black !important;
+	padding: 1% 5% 1% 5% !important; 
+	margin-bottom: 10%;
+}
+/*contact*/
+/*footer*/
+.footer{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+
+}
+.f{
+	font-weight: 100 !important;
+}
