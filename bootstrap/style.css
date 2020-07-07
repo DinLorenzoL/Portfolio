@@ -145,7 +145,20 @@ nav{
 .port{
 	margin-top: -10px;
 }
+.full{
+	background-color: blue;
+	padding: 3%;
 
+}
+.Browse{
+	background: transparent !important;
+	border-color: white !important;
+}
+.Browse:hover {
+	background:white!important;
+	border-color: black!important;
+	color: black !important;
+}
 /*portfolio*/
 /*contact*/
 .btn-send{
