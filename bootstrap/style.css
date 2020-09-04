@@ -2,18 +2,22 @@ html{
 	scroll-behavior: smooth;
 }
 /*-------------nav-------------*/
-nav{
-	position: absolute;
+.navbar{
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0;
+  z-index: 1 !important;
+
 }
 .nav-item{
-	margin-right:10px;
+	margin-right:50px;
+
 }
 .nav-link:hover{
 	background-color: #003fff;
 	color:white !important;
-	
-
 }
+
 /*-------------nav-------------*/
 /*-------------home-------------*/
 .homerow{
@@ -81,12 +85,16 @@ nav{
 }
 .aboutimg{
 	border: none !important;
+	box-shadow: 14px 16px blue;
+	margin-bottom: 13% !important;
+
 	
 }
 .aboutcontent{
 	text-align: justify;
     text-justify: inter-word;
     margin-top: 30px;
+    margin-bottom: 13% !important;
   
 }
 /*about*/
